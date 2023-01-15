@@ -4,6 +4,7 @@ Header navigation
 * {
     margin: 0;
     padding: 0;
+    font-family:'work sans'
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 }
 
 .header-head {
-    width: 1920px;
+    width: 100%;
     ;
 
     display: flex;
@@ -38,7 +39,7 @@ header {
 .nav {
     margin-left: 50px;
     font-weight: 500;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   font-family:'work sans'
 }
 
 /* --------------------------
@@ -54,7 +55,7 @@ Header Title and Description
     font-size: 64px;
     margin-left: 529px;
     text-align: center;
-    font-family: Work Sans;
+    font-family: 'Work Sans';
 
 }
 
@@ -65,6 +66,8 @@ Header Title and Description
 }
 button{
     padding: 18px 30px;
+    font-size: 20px;
+    font-weight: 600;
     color:#ffff;
     background-color: orange;
     border-radius: 5px;
@@ -77,11 +80,37 @@ button{
     width: 1440;
 }
 /* Features style */
+
 .container {
     display: flex;
+
     
 }
 .img-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+margin-top: 90px;
+margin-left: 300px;
 }
+.feature-details{
+    width: 540px;
+    /* height: 310px; */
+    margin-top: 290px;
+    margin-left: 70px;
+    
+}
+.feature-title{
+    width: 468px;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'work sans';
+}
+
+.feature-description{
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+}
+
