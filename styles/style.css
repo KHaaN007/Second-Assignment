@@ -4,7 +4,7 @@ Header navigation
 * {
     margin: 0;
     padding: 0;
-    font-family:'work sans'
+    font-family: 'work sans'
 }
 
 header {
@@ -23,7 +23,7 @@ header {
 }
 
 .header-head-title {
-    margin: 50px 230px ;
+    margin: 50px 230px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 45px;
@@ -39,7 +39,7 @@ header {
 .nav {
     margin-left: 50px;
     font-weight: 500;
-   font-family:'work sans'
+    font-family: 'work sans'
 }
 
 /* --------------------------
@@ -64,14 +64,16 @@ Header Title and Description
     margin-top: 20px;
 
 }
-button{
+
+.header-button,
+.feature-button {
     padding: 18px 30px;
     font-size: 20px;
     font-weight: 600;
-    color:#ffff;
+    color: #ffff;
     background-color: orange;
     border-radius: 5px;
-    margin-bottom: 45px; 
+    margin-bottom: 45px;
     margin-top: 35px;
     border: none;
 }
@@ -79,38 +81,188 @@ button{
 .header-title img {
     width: 1440;
 }
+
 /* Features style */
 
-.container {
+.feature {
     display: flex;
 
-    
+
 }
-.img-container{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 10px;
-margin-top: 90px;
-margin-left: 300px;
+
+.feature-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 90px;
+    margin-left: 300px;
 }
-.feature-details{
+
+.feature-details {
     width: 540px;
-    /* height: 310px; */
     margin-top: 290px;
     margin-left: 70px;
-    
+
 }
-.feature-title{
+
+.feature-title {
     width: 468px;
     font-size: 45px;
     font-weight: 500;
     font-family: 'work sans';
 }
 
-.feature-description{
+.feature-info {
     font-size: 16px;
     margin-top: 25px;
     margin-bottom: 35px;
 
 }
 
+.feature-description {
+    display: flex;
+    width: 1320px;
+    margin-top: 130px;
+    margin-left: 240px;
+}
+
+.feature-list {
+    width: 510px;
+    height: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    list-style-type: none;
+}
+
+.feature-sub-title {
+    width: 470px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 25px;
+
+}
+
+.feature-sub-description {
+    width: 500px;
+    height: 78px;
+    font-weight: 400;
+}
+
+.feature-name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.feature-about {
+    color: #727272;
+    font-weight: 400;
+}
+
+.img-button {
+    color: #ffff;
+    background-color: #FF900E;
+    padding: 50px px;
+    width: 380px;
+    height: 200px;
+    font-weight: 700;
+    font-size: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.fact {
+    margin-left: 240px;
+    margin-top: 130px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.fact-detail {
+    color: #727272;
+    width: 542px;
+    height: 52px;
+    font-weight: 400px;
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+.icon {
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    width: 240px;
+    height: 240px;
+    padding: ;
+    border: 1px solid coral;
+    border-radius: 8px;
+
+
+}
+
+.icon-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.icon-details {
+    color: #727272;
+    font-size: 20px;
+}
+
+/* Sponspors */
+
+.sponspors-details {
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.sponspors-title {
+    font-size: 45px;
+    margin-top: 180px;
+    margin-bottom: 25px;
+
+}
+
+.sponspors-description {
+    width: 542px;
+    text-align: center;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 50px;
+}
+
+footer {
+    width: 1440px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    text-align: center;
+    
+    margin-top: 170px;
+    margin-bottom: 250px;
+    margin-left: 240px;
+}
